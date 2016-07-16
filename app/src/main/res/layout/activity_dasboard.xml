@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:background="#000"
+    tools:context=".ActivityDasboard">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".ActivityDasboard">
+
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="258dp"
+            android:id="@+id/imgProfil"
+            android:background="#fff"
+            android:contentDescription="@string/photo_lu_cux"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/txtNamaMhs"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/imgProfil"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/txtNIMMhs"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/txtNamaMhs"
+            android:layout_alignLeft="@+id/txtNamaMhs"
+            android:layout_alignStart="@+id/txtNamaMhs" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/txtLoginMhs"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/txtNIMMhs"
+            android:layout_alignLeft="@+id/txtNIMMhs"
+            android:layout_alignStart="@+id/txtNIMMhs" />
+
+    </RelativeLayout>
+</ScrollView>

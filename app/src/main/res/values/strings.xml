@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Kampret Student</string>
+    <string name="your_nim">Your NIM</string>
+    <string name="your_password">Your Password</string>
+    <string name="login_system">LOGIN</string>
+
+    <string name="title_activity_activity_splash">Kampret Student</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="cek_nilai">Cek Nilai</string>
+    <string name="photo_lu_cux">Photo lu cux</string>
+    <string name="save_photo">SAVE PHOTO</string>
+    <string name="exit">EXIT</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fr_home">ini Home</string>
+    <string name="fr_cek_nilai">ini Cek Nilai</string>
+    <string name="sks">SKS</string>
+    <string name="_100">100</string>
+    <string name="nilai">NILAI</string>
+    <string name="_100_00">100.00</string>
+    <string name="mutu">MUTU</string>
+    <string name="a">A</string>
+    <string name="abs">ABS</string>
+    <string name="frm">FRM</string>
+    <string name="tgs">TGS</string>
+    <string name="sp">SP</string>
+    <string name="uas">UAS</string>
+    <string name="prk">PRK</string>
+    <string name="uts">UTS</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="logo">logo</string>
+    <string name="home">Dengan menggunakan aplikasi ini, anda berarti belum bayaran ...\n\nSekian dan Terima Kasih</string>
+    <string name="logohome">logo</string>
+    <string name="banner_unit_id">ca-app-pub-3719932490690821/8057046792</string>
+</resources>

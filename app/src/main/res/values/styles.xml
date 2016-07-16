@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="FullscreenTheme" parent="AppDrawer.NoActionBar">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppDrawer" parent="Theme.AppCompat">
+
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorAccent">@color/main_color</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="AppDrawer.Dialog" parent="Theme.AppCompat.Light.Dialog">
+
+    </style>
+
+    <style name="AppDrawer.NoActionBar" parent="AppDrawer">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:listDivider">@color/main_color</item>
+        <item name="android:alertDialogTheme">@style/AppDrawer.Dialog</item>
+    </style>
+
+    <style name="AppDrawer.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="AppDrawer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
